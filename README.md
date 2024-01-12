@@ -1,4 +1,2 @@
-Name: Alexus Jenkins
-Course: Object-Oriented Programming
-CRN: COP-3330C
-Description: Collection of Project Assignments from the Course 'COP-3330C: Object-Oriented Programming". I used the application "Intelli J" to complete these assignemnts. 
+**Title:** Module 1 | Classes & Objects<br>
+**Project Description:** A Shape Calculator Application that is a Java program designed to demonstrate my object-oriented programming skills through the creation and manipulation of two shapes: A Circle and a Rectangle.
