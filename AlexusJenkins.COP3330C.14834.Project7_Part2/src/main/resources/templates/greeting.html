@@ -1,0 +1,33 @@
+<!--
+Name: Alexus Jenkins
+Course: COP 3330C
+Date: November 12th, 2023
+Program Objective: Create a Form Submission Application
+
+Purpose: Displays and Handles user interaction for student greeting form.
+-->
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        h1{
+            font-size: 30pt;
+        }
+    </style>
+</head>
+<body>
+<h1>COP 3330 Project 7: Greeting</h1>
+<p><strong>Please enter your student ID, a date, and a message below.</strong></p>
+<form action="#" th:action="@{/greeting}" th:object="${greeting}" method="post">
+    <p>Student Id: <input type="text" th:field="*{id}" required /></p>
+    <p>Date: <input type="date" th:field="*{date}" required/></p>
+    <p>Message: <input type="text" th:field="*{content}" required/></p>
+    <p>
+        <input type="submit" value="Enter Data"/>
+        <input type="reset" value="Clear"/>
+    </p>
+</form>
+</body>
+</html>
